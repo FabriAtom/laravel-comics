@@ -1,26 +1,25 @@
-
-.main_header {
+.main-header{
     max-width: 1250px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding: 2rem, 0;
-    height: 100px;
-
-    ul,
-    ol,
-    menu {
-        list-style: none;
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    img {
-        max-width: 100%;
-    }
 }
+
+    
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
 
 .logo-header {
     max-height: 50px;

@@ -1,0 +1,45 @@
+.container {
+  display: grid;
+  padding: 50px 150px;
+  position: relative;
+  margin: 0 auto;
+}
+.container .card {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.container .button {
+  position: absolute;
+  top: -20px;
+  left: 150px;
+  height: 40px;
+  width: 200px;
+  color: white;
+  border: none;
+}
+.container .button-l {
+  height: 30px;
+  width: 150px;
+  color: white;
+  border: none;
+  position: absolute;
+  bottom: 20px;
+  right: 50%;
+}
+
+.icons-bar {
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 4rem;
+  background-color: rgb(2, 130, 249);
+}
+
+.icon-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}

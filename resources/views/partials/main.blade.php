@@ -1,7 +1,5 @@
 <main>
     <div class="container">
-      <button class="button">CURRENT SEREIES</button>
-     <button class="button-l">LOAD MORE</button>
     </div>
     <div class="icons-bar">
       <div class="icon-logo">

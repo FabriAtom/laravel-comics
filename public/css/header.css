@@ -1,0 +1,52 @@
+.main-header {
+  max-width: 1250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul,
+ol,
+menu {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo-header {
+  max-height: 50px;
+  width: 50px;
+}
+
+.active {
+  color: white;
+}
+
+.nav {
+  display: inline-block;
+  margin-right: auto;
+}
+.nav .list {
+  max-width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.nav .list .nav-link {
+  padding: 0 0.75rem;
+  line-height: 1, 5rem;
+}
+.nav .list .nav-link.active, .nav .list .nav-link:hover {
+  background-color: black;
+  color: white;
+}
+.nav .list li {
+  list-style: none;
+}

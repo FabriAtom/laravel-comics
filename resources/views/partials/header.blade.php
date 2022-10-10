@@ -1,10 +1,4 @@
-{{-- <header>
-    <div class="logo">
-        <img>
-    </div>
-</header> --}}
-
-<header class="main_header">
+<header class="main-header">
     <div class="logo-header">
         <img src="{{ asset('images.dc-logo.png') }}" alt="">
     </div>
@@ -26,7 +20,7 @@
                 ],
                 [
                     'text' => 'TV',
-                    'href' => 'http://127.0.0.1:8000/comics',
+                    'href' => 'http://localhost/comics',
                 ],
                 [
                     'text' => 'GAMES',
@@ -59,7 +53,7 @@
             @foreach ($links as $link)
                 <ul class="list">
                     <li class="nav-link ">
-                        <a>
+                        <a href="">
                             {{ $link['text'] }}
                         </a>
                     </li>
@@ -68,3 +62,4 @@
         </nav>
     </div>
 </header>
+

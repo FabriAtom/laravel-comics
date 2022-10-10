@@ -1,24 +1,191 @@
-.logo {
-  width: 100%;
-  height: 30%;
-}
-
-.sidebar {
-  max-height: 100px;
-  max-width: 100%;
-  background-color: white;
-  display: flex;
-}
-
-ul {
-  list-style: none;
-  text-decoration: none;
-}
-
-.links {
+.main-header {
+  max-width: 1250px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
 }
 
+ul,
+ol,
+menu {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo-header {
+  max-height: 50px;
+  width: 50px;
+}
+
+.active {
+  color: white;
+}
+
+.nav {
+  display: inline-block;
+  margin-right: auto;
+}
+.nav .list {
+  max-width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.nav .list .nav-link {
+  padding: 0 0.75rem;
+  line-height: 1, 5rem;
+}
+.nav .list .nav-link.active, .nav .list .nav-link:hover {
+  background-color: black;
+  color: white;
+}
+.nav .list li {
+  list-style: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/footer-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  flex-basis: 50%;
+  background-image: url(./images/dc-logo-bg.png);
+  background-size: auto 130%;
+  background-position: center right;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  background-color: lightgray;
+  background-color: rgb(28, 28, 28);
+}
+.contact h3 {
+  color: white;
+}
+.contact a {
+  font-size: 13px;
+  color: white;
+}
+
+#push {
+  border: solid 2px;
+  height: 30px;
+  font-size: 12px;
+  width: 120px;
+  color: white;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-items: center;
+  align-content: center;
+}
+.contact-wrapper li {
+  gap: 1rem;
+}
+.contact-wrapper ul {
+  gap: 2rem;
+  margin-right: 20px;
+}
+
+.follow-us {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: grey;
+  min-height: 100px;
+  flex-basis: 50%;
+  background-color: rgb(48, 48, 48);
+}
+.follow-us ul {
+  display: flex;
+  gap: 2rem;
+}
+.follow-us h2 {
+  align-self: center;
+}
+
+.social-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.social-contact li {
+  align-items: center;
+}
+.social-contact img {
+  height: 30px;
+  width: 30px;
+}
+
+.logo-footer {
+  flex-basis: 50%;
+}
+
+.side {
+  max-height: 20px;
+  background-color: blue;
+  max-width: 100%;
+}
+
+.container {
+  display: grid;
+  padding: 50px 150px;
+  position: relative;
+  margin: 0 auto;
+}
+.container .card {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.container .button {
+  position: absolute;
+  top: -20px;
+  left: 150px;
+  height: 40px;
+  width: 200px;
+  color: white;
+  border: none;
+}
+.container .button-l {
+  height: 30px;
+  width: 150px;
+  color: white;
+  border: none;
+  position: absolute;
+  bottom: 20px;
+  right: 50%;
+}
+
+.icons-bar {
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 4rem;
+  background-color: rgb(2, 130, 249);
+}
+
+.icon-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}

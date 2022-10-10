@@ -13,12 +13,28 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/contatti', function () {
-    return view('partials.home');
+Route::get('/prod', function () {
+    return view('pages.prod');
 });
 
 Route::get('/', function () {
-    return view('layouts.app');
+    $data = [ 
+        'fumetti' => config('comics'),
+    ];
+    return view('pages.home', $data);
 });
 
-
+Route::get('/comics/{index}', function ($index) {
+    $cards = config('comics');
+    if($index < count($cards)){
+   $card = $cards[$index];
+    $data = [
+        'comics'=>$card
+    ];
+    return view('products.show',$data);
+}
+ else {
+    abort(404);
+}
+   
+})->name('fumetto');
