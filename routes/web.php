@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/contatti', function () {
+    return view('partials.home');
 });
+
+Route::get('/', function () {
+    return view('layouts.app');
+});
+
+
